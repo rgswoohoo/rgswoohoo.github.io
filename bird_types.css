@@ -1,0 +1,53 @@
+main div {
+    display: flex;
+    flex-flow: row wrap;
+    }
+main section:nth-of-type(1) {
+    display:block;
+    column-count: 1;
+    flex: none;
+}
+
+main section:nth-of-type(2) {
+    display:block;
+    column-count: 1;
+}
+
+main section:nth-of-type(3) {
+    display:block;
+    column-count: 1;
+}
+
+main section:nth-of-type(3) h2 {
+    padding-top: 40px;
+}
+
+main section:nth-of-type(4) {
+    display:block;
+    column-count: 1;
+    padding-left: 225px;
+    }
+
+main section:nth-of-type(5) {
+    display:block;
+    column-count: 1;
+}
+
+main p {
+    max-width: 370px;
+}
+
+main {
+    display: flex;    
+}
+
+main section {   
+    padding: 10px;
+}
+
+@media (max-width: 575px) {
+
+main section:nth-of-type(4) {
+    padding: 20px;
+}
+}

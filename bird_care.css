@@ -1,0 +1,45 @@
+div {
+     flex: 1 0 80%;       
+     }
+
+     nav {
+        flex: 0 0 20%;
+     }
+
+main section:nth-of-type(1) {
+    display: inline-flex;
+    flex-flow: row wrap;         
+}
+
+main img {
+    max-width: 100%;    
+    border-style: solid;
+     border-width: 5px;
+     border-color: rgb(117, 243, 201);
+     
+}
+
+main h2 {
+    padding: 20px 0px 0px 400px;
+    }
+
+p {
+    max-width: 1200px;
+    padding: 0px;
+}
+
+@media (max-width: 575px) { 
+
+    div {
+        border-style: none;
+        
+    }
+    section:nth-of-type(2) {
+        max-width: 570px;
+    }
+
+    section img {
+        max-width: 570px;
+    }
+
+}
