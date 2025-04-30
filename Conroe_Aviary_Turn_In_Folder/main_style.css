@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Bree+Serif&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+header h1 {
+    font-family: "Bree Serif", serif;  
+  font-size: 4rem;
+  text-align: center;  
+}
+  
+h2 {
+    font-family: "Alegreya", serif;
+    font-style: normal;
+}
+
+header h1, footer {
+    color: #fff;
+    padding:  5px 20px;
+    background-color: rgb(9, 46, 21);
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+header img {   
+        max-width: 100%;
+        height: auto;
+    }
+
+    main {        
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    nav {
+        flex: 1 1 20%;
+    }
+
+    main div {    
+        flex: 1 1 80%;
+        padding: 0px;
+        margin: 0px;
+    }
+
+
+main section:nth-of-type(1) {
+    column-count: 2;
+    flex: 1 0 80%;
+    margin: 0px 0px 0px -15px;
+    }
+
+    section h2 {
+        margin: 0px;
+    }
+
+    section p{
+        margin-top: 10px;
+        }
+
+
+ul {
+    margin: 5px 0px;    
+    }
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: inline-block;        
+    }
+
+nav ul li {
+    margin: 10px;
+    background-color: #a6ecbf;
+    /*padding: 20px;*/
+    }
+
+nav a {
+    text-decoration: none;    
+    color: #5b3514;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    font-size: 1.1rem;
+    }
+
+nav ul li a:hover  {
+    background: #500;
+    color: rgb(224, 243, 164);
+    }
+
+   
+.pic-left {
+    max-width: 45%;
+    float: left;
+    margin-right: 15px;
+}
+
+.pic-right {
+    max-width: 45%;
+    float: right;
+    margin-left: 15px;
+}
+
+footer{
+    margin: 10px 0px;
+}
+
+@media (max-width: 575px) { 
+    
+    header img {   
+        width: 575px;
+                }  
+    main {
+        display: block;
+        }
+
+nav {
+    display: flex;
+}
+
+nav ul {
+    display: flex;
+           }
+
+nav ul li {
+    margin: 10px;
+    height: 50px;
+    background-color: #a6ecbf;
+    padding: 5px;
+            }
+
+nav a {
+    text-align: center;
+    font-size: 1rem;
+      }
+
+    
+}
